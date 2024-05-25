@@ -1,1 +1,1 @@
-# AniX---AnimeLibrary
+# AniX-AnimeLibrary
