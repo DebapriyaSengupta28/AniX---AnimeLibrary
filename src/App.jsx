@@ -16,7 +16,7 @@ function App() {
           <Route path="/WatchList" element={<WatchList />} />
           <Route path="/anime/:animeId" element={<AnimeDetail />} />
           <Route path="/Trending" element={<TrendingPage />} />
-          <Route path="/search" element={<SearchPage />} /> {/* Define route for SearchPage */}
+          <Route path="/search" element={<SearchPage />} />
         </Routes>
       </div>
     </Router>
