@@ -21,9 +21,9 @@ Body{
   width: 1200px;
   height: 500px;
   background-color: rgb(26, 25, 25);
-  border-radius: 20px; /* Increase border-radius for more rounded corners */
+  border-radius: 20px;
   display: flex;
-  overflow: hidden; /* Add overflow: hidden to the container */
+  overflow: hidden;
 }
 
 .left-column {
@@ -34,14 +34,13 @@ Body{
 
 .leftElement {
   font-size: 26px;
-  position: absolute; /* Add position absolute */
-  top: 50%; /* Position halfway from the top */
-  transform: translateY(-50%); /* Move it up by half of its own height */
-  text-align: left; /* Align text to the left */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
 }
 
 .leftElement .description p {
-  /* Your desired styles for the description text */
   color: white;
   font-weight: bold;
 }
@@ -52,7 +51,7 @@ Body{
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden; /* Add overflow: hidden to the right column */
+  overflow: hidden;
 }
 
 .right-column::before {
@@ -67,9 +66,9 @@ Body{
 }
 
 .right-column img {
-  width: calc(100% - 0.9px); /* Subtract 0.4px from the width to create a 0.2px margin on each side */
-  height: calc(100% - 0.9px); /* Subtract 0.4px from the height to create a 0.2px margin on top and bottom */
-  object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+  width: calc(100% - 0.9px);
+  height: calc(100% - 0.9px);
+  object-fit: cover;
   z-index: 0;
 }
 
@@ -91,17 +90,17 @@ Body{
 }
 
 .inputContainer input {
-  width: 270px; /* Keep the width */
-  padding: 14px; /* Keep the padding */
-  margin-right: 10px; /* Keep the margin */
-  border: none; /* Keep the border */
-  border-radius: inherit; /* Keep the border-radius */
-  font-size: 16px; /* Keep the font size */
-  outline: none; /* Remove the outline */
+  width: 270px;
+  padding: 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: inherit;
+  font-size: 16px;
+  outline: none;
 }
 
 .inputContainer button {
-  padding: 14px 28px; /* Same size as LoadMoreButton */
+  padding: 14px 28px;
   font-size: 16px;
   background-color: rgb(188, 31, 102);
   color: white;
@@ -119,14 +118,14 @@ Body{
 }
 
 .homeButton {
-  list-style: none; /* Remove the bullet point */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .homeButton a {
-  display: inline-block; /* Ensure it behaves like a button */
-  padding: 14px 40px; /* Same size as LoadMoreButton */
+  display: inline-block;
+  padding: 14px 40px;
   font-size: 16px;
   background-color: rgb(188, 31, 102);
   color: white;
